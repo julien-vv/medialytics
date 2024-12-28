@@ -1,2 +1,5 @@
 .env
 data/
+Doc/
+pipeline/model.h5
+pipeline/audio/debate/zemmour_pecresse_50s.wav
