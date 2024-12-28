@@ -1,0 +1,8 @@
+pydub
+modelscope
+pyannote.audio
+pyannote.core
+tensorflow
+audiosegment
+numpy
+soundfile
