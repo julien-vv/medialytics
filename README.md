@@ -1,4 +1,4 @@
-This is my final master project, a political debate analysis pipeline using AI.
+This is my end-of-studies master project, a political debate analysis pipeline using AI.
 
 The pipeline takes a .wav audio file of a political debate between various speakers and processes it.
 
