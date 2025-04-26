@@ -1,14 +1,23 @@
-This is my end-of-studies master project, a political debate analysis pipeline using AI.
+# Political Debate Analysis Pipeline
 
-The pipeline takes a .wav audio file of a political debate between various speakers and processes it.
+> AI-based pipeline for analyzing political debates with speaker diarization, overlap detection, transcription, speaker identification, and visual playback.
 
-The first step is the diarization, which segments the audio for each different speaker.
-Then the overlap detection, whenever two speakers speak at the same time, which is quite common during debates, the overlapping voices segments are extracted.  
-Once the audio is segmented, we label these and group the segments by speakers or overlap.
-The next step is separating the overlap segment into distinct segments for each speaker in the overlap. 
-Then once every audio is free of overlap, we transcribe every segment.
-The final step is to predict for each speaker, his identity.
-As a bonus, we have a little playback of the original audio with each speaker being displayed while talking.
+## About the Project
 
-Important : I am not allowed to share the training data I have, as it is privately owned by a company I collaborated with. As such, if you want to test the pipeline on your own, you will have to get your own data. 
-I have put a notebook to create your own model for speaker identification, with some few analysis of my own to demonstrate how effective it is.  
+This project is my end-of-studies master's thesis, focused on building a pipeline that analyzes political debates using artificial intelligence.
+
+The system takes a `.wav` audio file of a political debate involving multiple speakers and processes it through several stages:
+
+1. **Speaker Diarization**: Segment the audio into regions corresponding to different speakers.
+2. **Overlap Detection**: Identify and separate segments where multiple speakers talk at the same time, which is a common occurrence during debates.
+3. **Segmentation**: Group the audio segments by speaker or overlap.
+4. **Transcription**: Transcribe each individual segment once overlaps are resolved.
+5. **Speaker Identification**: Predict the identity of each speaker based on their audio segment.
+6. **Playback Visualization**: Provide a playback of the original debate audio, displaying the speaker’s identity dynamically while they are talking.
+
+## Important Notice
+
+Due to confidentiality agreements with the company I collaborated with, I am **not allowed to share the training data** used for speaker identification.
+
+If you wish to test the pipeline yourself, you will need to provide your own dataset.  
+A notebook (`speaker_identification_model.ipynb`) is included to help you create and train your own speaker identification model, along with some sample analyses demonstrating its effectiveness.
