@@ -17,7 +17,7 @@ The system takes a `.wav` audio file of a political debate involving multiple sp
 
 ## Important Notice
 
-Due to confidentiality agreements with the company I collaborated with, I am **not allowed to share the training data** used for speaker identification.
+Due to confidentiality agreements with the company I collaborated with, I am not allowed to share the training data used for speaker identification.
 
 If you wish to test the pipeline yourself, you will need to provide your own dataset.  
 A notebook (`speaker_identification_model.ipynb`) is included to help you create and train your own speaker identification model, along with some sample analyses demonstrating its effectiveness.
